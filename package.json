@@ -1,0 +1,19 @@
+{
+  "name": "service-containers",
+  "version": "0.1.0",
+  "private": true,
+  "description": "CLI demo that creates a customers table in PostgreSQL, inserts demo data, and prints TSV",
+  "main": "postgres-demo.js",
+  "bin": {
+    "customers-demo": "./postgres-demo.js"
+  },
+  "scripts": {
+    "start": "node postgres-demo.js"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "dependencies": {
+    "pg": "^8.12.0"
+  }
+}
